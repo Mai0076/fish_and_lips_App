@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Fish and Lips Site</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="common.css" />
+    <link rel="icon" type="image/jpg" href="../../images/logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="navArea">
+      <nav>
+        <div class="inner">
+          <ul>
+            <li><p>Fish and Lips</p></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="news.html" class="btn">News</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="biography.html">Biography</a></li>
+            <li><a href="discography.html">Discography</a></li>
+            <li>
+              <a href="https://tower.jp/artist/discography/5840373?kid=psg01"
+                >Goods</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div id="mask"></div>
+    </div>
+
+    <div class="wrapper">
+      <header id="header">
+        <a href="../index.html">Fish and Lips</a>
+      </header>
+    </div>
+
+    <div class="web">
+      <h1>Video</h1>
+      <div class="video-show">
+        <ul class="list-video">
+          <li class="list-video-item">
+            <a>
+              <img
+                src="../../images/video-hatogaya.jpg"
+                class="openModal"
+                data-video="NtTwNKvnN8o"
+              />
+            </a>
+            <p class="tit">鳩ヶ谷</p>
+            <p class="date">2024.09.14</p>
+          </li>
+          <li class="list-video-item">
+            <a>
+              <img
+                src="../../images/video-sindere.jpg"
+                class="openModal"
+                data-video="DtWQy4qJ9oA"
+              />
+            </a>
+            <p class="tit">シンデレララブストーリー</p>
+            <p class="date">2024.09.04</p>
+          </li>
+          <li class="list-video-item">
+            <a>
+              <img
+                src="../../images/video-seisyun.jpg"
+                class="openModal"
+                data-video="xY_yevBbXWo"
+              />
+            </a>
+            <p class="tit">青春ロックを歌って</p>
+            <p class="date">2024.03.13</p>
+          </li>
+          <li class="list-video-item">
+            <a>
+              <img
+                src="../../images/video-hero.jpg"
+                class="openModal"
+                data-video="Ak6BVwVMYgw"
+              />
+            </a>
+            <p class="tit">HERO</p>
+            <p class="date">2024.01.10</p>
+          </li>
+          <li class="list-video-item">
+            <a>
+              <img
+                src="../../images/video-aitaku.jpg"
+                class="openModal"
+                data-video="mvENOSr4BvQ"
+              />
+            </a>
+            <p class="tit">会いたくなったら</p>
+            <p class="date">2023.08.30</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- モーダル -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe
+          id="youtubeVideo"
+          width="870px"
+          height="550px"
+          src=""
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="list-sns">
+        <a href="https://x.com/FaL_band" target="_blank">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://instagram.com/fish_and_lips" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://youtube.com/@fishandlips1021" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://tiktok.com/@fish_and_lips_" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a
+          href="https://www.tunecore.co.jp/artists/Fish_and_Lips?lang=ja"
+          target="_blank"
+        >
+          <i class="fa-solid fa-music"></i>
+        </a>
+      </div>
+      <small>&copy;2024 fish_and_lips_lover_Aimai</small>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!--自作のJS-->
+    <script src="common.js" defer></script>
+    <script src="../index.js"></script>
+  </body>
+</html>
